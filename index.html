@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script src="https://cdn.jsdelivr.net/npm/particles.js/particles.min.js"></script>
+		<script
+			src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js"
+			crossorigin="anonymous"
+		></script>
 		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
@@ -15,19 +20,50 @@
 			href="assets/styles/index.css"
 		/>
 		<title>NeoNyaa</title>
+		<meta
+			content="NeoNyaa"
+			property="og:title"
+		/>
+		<meta
+			content="The personal site of NeoNyaa"
+			property="og:description"
+		/>
+		<meta
+			content="https://neo-nyaa.pet"
+			property="og:url"
+		/>
+		<meta
+			content=""
+			property="og:image"
+		/>
+		<meta
+			content="#FFC0D1"
+			data-react-helmet="true"
+			name="theme-color"
+		/>
 	</head>
 	<body>
 		<div class="container">
 			<img
 				class="profilePicture"
-				src="https://gravatar.com/avatar/3d1a56fb8706c4e57cb21f1952c530cb47d4702634c884e18bf2e490902e7424?s=128"
+				src="https://gravatar.com/avatar/3d1a56fb8706c4e57cb21f1952c530cb47d4702634c884e18bf2e490902e7424?s=256"
 			/>
-			<h1>NeoNyaa</h1>
-			<p>
-				Heyo! I'm Neo, I like to learn about computers by tinkering around and making random
-				things :D
-			</p>
+			<div class="info">
+				<h1>NeoNyaa</h1>
+				<p>
+					Heyo! I'm Neo, I like to learn about computers by tinkering around and making
+					random things ^.^ <br /><br />Below you can find some of the stuff I make/do in
+					my spare time.
+				</p>
+			</div>
+
 			<div class="links">
+				<a
+					class="pronounspage"
+					href="https://pronouns.page/@NeoNyaa"
+					target="_blank"
+					>🏳️‍⚧️</a
+				>
 				<a
 					class="github"
 					href="https://github.com/NeoNyaa/"
@@ -86,10 +122,11 @@
 		</div>
 		<div id="particles-js"></div>
 	</body>
-	<script src="https://cdn.jsdelivr.net/npm/particles.js/particles.min.js"></script>
 	<script>
 		particlesJS.load("particles-js", "assets/configs/particles.json", function () {
 			console.log("callback - particles.js config loaded");
 		});
+
+		twemoji.parse(document.body);
 	</script>
 </html>
