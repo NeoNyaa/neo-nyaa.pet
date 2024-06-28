@@ -77,6 +77,10 @@ html {
 	grid-area: links;
 }
 
+.links > a {
+	text-decoration: none;
+}
+
 .container .info {
 	grid-area: info;
 }
