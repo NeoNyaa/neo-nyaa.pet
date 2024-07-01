@@ -1,0 +1,6 @@
+.container {
+	grid-template-areas:
+		"pfp info"
+		"pfp info"
+		"pfp links";
+}

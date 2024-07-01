@@ -1,65 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>NeoNyaa</title>
+		<meta name="darkreader-lock" />
+		<script src="https://cdn.jsdelivr.net/npm/particles.js/particles.min.js"></script>
+		<script
+			src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="/assets/styles/reset.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="/assets/styles/index.css"
+		/>
+		<link
+			id="screenOrientation"
+			rel="stylesheet"
+			href=""
+		/>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<meta
+			property="og:title"
+			content="NeoNyaa"
+		/>
+		<meta
+			property="og:description"
+			content="Heyo! I'm Neo, I like to learn about computers by tinkering around and making random things ^.^"
+		/>
+		<meta
+			property="og:url"
+			content="https://neo-nyaa.pet"
+		/>
+		<meta
+			property="og:image"
+			content="https://neo-nyaa.pet/assets/imgs/Embed.png"
+		/>
+		<meta
+			name="theme-color"
+			content="#FFC0D1"
+		/>
+		<meta
+			name="twitter:card"
+			content="summary_large_image"
+		/>
+	</head>
 
-<head>
-	<title>NeoNyaa</title>
-	<meta name="darkreader-lock" />
-	<script src="https://cdn.jsdelivr.net/npm/particles.js/particles.min.js"></script>
-	<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="assets/styles/reset.css" />
-	<link rel="stylesheet" href="assets/styles/index.css" />
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta property="og:title" content="NeoNyaa" />
-	<meta property="og:description" content="Heyo! I'm Neo, I like to learn about computers by tinkering around and making random things ^.^" />
-	<meta property="og:url" content="https://neo-nyaa.pet" />
-	<meta property="og:image" content="https://neo-nyaa.pet/assets/imgs/Embed.png" />
-	<meta name="theme-color" content="#FFC0D1" />
-	<meta name="twitter:card" content="summary_large_image" />
-</head>
+	<body>
+		<div class="container">
+			<img
+				class="profilePicture"
+				src="https://gravatar.com/avatar/3d1a56fb8706c4e57cb21f1952c530cb47d4702634c884e18bf2e490902e7424?s=256"
+			/>
+			<div class="info">
+				<h1>NeoNyaa</h1>
+				<p>
+					Heyo! I'm Neo, I like to learn about computers by tinkering around and making
+					random things ^.^ <br /><br />Below you can find some of the stuff I make/do in
+					my spare time.
+				</p>
+			</div>
 
-<body>
-	<div class="container">
-		<img class="profilePicture"
-			src="https://gravatar.com/avatar/3d1a56fb8706c4e57cb21f1952c530cb47d4702634c884e18bf2e490902e7424?s=256" />
-		<div class="info">
-			<h1>NeoNyaa</h1>
-			<p>
-				Heyo! I'm Neo, I like to learn about computers by tinkering around and making
-				random things ^.^ <br /><br />Below you can find some of the stuff I make/do in
-				my spare time.
-			</p>
+			<div class="links">
+				<a
+					class="pronounspage"
+					href="https://pronouns.page/@NeoNyaa"
+					target="_blank"
+					>🏳️‍⚧️</a
+				>
+				<a
+					class="github"
+					href="https://github.com/NeoNyaa/"
+					target="_blank"
+				>
+					<img
+						src="assets/imgs/GitHub.svg"
+						alt="GitHub Logo"
+					/>
+				</a>
+				<a
+					class="gitlab"
+					href="https://gitlab.com/___Neopolitan"
+					target="_blank"
+				>
+					<img
+						src="assets/imgs/Gitlab.svg"
+						alt="Gitlab Logo"
+					/>
+				</a>
+				<a
+					class="discord"
+					href="https://discord.com/users/427114049487241227"
+					target="_blank"
+				>
+					<img
+						src="assets/imgs/Discord.svg"
+						alt="Discord Logo"
+					/>
+				</a>
+				<a
+					class="statsfm"
+					href="https://stats.fm/Neopolitan"
+					target="_blank"
+				>
+					<img
+						src="assets/imgs/Statsfm.svg"
+						alt="Stats.fm Logo"
+					/>
+				</a>
+				<a
+					class="modrinth"
+					href="https://modrinth.com/user/Neopolitan"
+					target="_blank"
+				>
+					<img
+						src="assets/imgs/Modrinth.svg"
+						alt="Modrinth Logo"
+					/>
+				</a>
+				<a
+					class="youtube"
+					href="https://www.youtube.com/@_Neopolitan"
+					target="_blank"
+				>
+					<img
+						src="assets/imgs/YouTube.svg"
+						alt="YouTube Logo"
+					/>
+				</a>
+			</div>
 		</div>
+		<div id="particles-js"></div>
+	</body>
+	<script>
+		particlesJS.load("particles-js", "assets/configs/particles.json", function () {
+			console.log("callback - particles.js config loaded");
+		});
 
-		<div class="links">
-			<a class="pronounspage" href="https://pronouns.page/@NeoNyaa" target="_blank">🏳️‍⚧️</a>
-			<a class="github" href="https://github.com/NeoNyaa/" target="_blank">
-				<img src="assets/imgs/GitHub.svg" alt="GitHub Logo" />
-			</a>
-			<a class="gitlab" href="https://gitlab.com/___Neopolitan" target="_blank">
-				<img src="assets/imgs/Gitlab.svg" alt="Gitlab Logo" />
-			</a>
-			<a class="discord" href="https://discord.com/users/427114049487241227" target="_blank">
-				<img src="assets/imgs/Discord.svg" alt="Discord Logo" />
-			</a>
-			<a class="statsfm" href="https://stats.fm/Neopolitan" target="_blank">
-				<img src="assets/imgs/Statsfm.svg" alt="Stats.fm Logo" />
-			</a>
-			<a class="modrinth" href="https://modrinth.com/user/Neopolitan" target="_blank">
-				<img src="assets/imgs/Modrinth.svg" alt="Modrinth Logo" />
-			</a>
-			<a class="youtube" href="https://www.youtube.com/@_Neopolitan" target="_blank">
-				<img src="assets/imgs/YouTube.svg" alt="YouTube Logo" />
-			</a>
-		</div>
-	</div>
-	<div id="particles-js"></div>
-</body>
-<script>
-	particlesJS.load("particles-js", "assets/configs/particles.json", function () {
-		console.log("callback - particles.js config loaded");
-	});
-
-	twemoji.parse(document.body);
-</script>
+		twemoji.parse(document.body);
+	</script>
+	<script src="/assets/js/index.js"></script>
 </html>
