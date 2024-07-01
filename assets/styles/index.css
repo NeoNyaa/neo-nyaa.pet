@@ -3,11 +3,21 @@
 	src: url("/assets/fonts/FiraCode-VF.woff2");
 }
 
+/* Specify in CSS */
 code,
 h1,
 pre,
 p {
 	font-family: "Fira Code", monospace;
+}
+
+@supports (font-variation-settings: normal) {
+	code,
+	h1,
+	pre,
+	p {
+		font-family: "Fira Code VF", monospace;
+	}
 }
 
 body,
