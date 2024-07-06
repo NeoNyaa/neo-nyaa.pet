@@ -7,7 +7,8 @@
 code,
 h1,
 pre,
-p {
+p,
+a {
 	font-family: "Fira Code", monospace;
 }
 
@@ -116,4 +117,12 @@ img.emoji {
 	height: 32px;
 	width: 32px;
 	vertical-align: -0.1em;
+}
+
+a {
+	color: lightskyblue;
+}
+
+a:visited {
+	color: violet;
 }
