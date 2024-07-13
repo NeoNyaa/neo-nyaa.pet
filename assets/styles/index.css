@@ -82,10 +82,14 @@ html {
 
 .container .links {
 	grid-area: links;
+	height: max-content;
 }
 
 .links > a {
 	text-decoration: none;
+	display: inline-block;
+	width: max-content;
+	vertical-align: middle;
 }
 
 .container .info {
@@ -111,12 +115,6 @@ html {
 
 .statsfm img {
 	scale: 0.9;
-}
-
-img.emoji {
-	height: 32px;
-	width: 32px;
-	vertical-align: -0.1em;
 }
 
 a {

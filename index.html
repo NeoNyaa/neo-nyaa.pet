@@ -4,10 +4,6 @@
 		<title>NeoNyaa</title>
 		<meta name="darkreader-lock" />
 		<script src="https://cdn.jsdelivr.net/npm/particles.js/particles.min.js"></script>
-		<script
-			src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js"
-			crossorigin="anonymous"
-		></script>
 		<link
 			rel="stylesheet"
 			href="/assets/styles/reset.css"
@@ -76,8 +72,11 @@
 					class="pronounspage"
 					href="https://pronouns.page/@NeoNyaa"
 					target="_blank"
-					>🏳️‍⚧️</a
-				>
+					><img
+						src="/assets/imgs/PronounsPage.svg"
+						alt="Pronouns.Page Logo"
+					/>
+				</a>
 				<a
 					class="github"
 					href="https://github.com/NeoNyaa/"
@@ -146,8 +145,6 @@
 		particlesJS.load("particles-js", "/assets/configs/particles.json", function () {
 			console.log("callback - particles.js config loaded");
 		});
-
-		twemoji.parse(document.body);
 	</script>
 	<script src="/assets/js/index.js"></script>
 </html>
