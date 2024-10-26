@@ -39,7 +39,7 @@ html {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 0;
+	pointer-events: none;
 }
 
 .container {
@@ -123,4 +123,16 @@ a {
 
 a:visited {
 	color: violet;
+}
+
+header {
+	height: 50px;
+	background: rgba(0, 0, 0, 0.5);
+	align-content: center;
+	padding: 0 1em;
+}
+
+header a {
+	float: right;
+	text-decoration: none;
 }
